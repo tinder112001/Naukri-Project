@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/gbala/IdeaProjects/Naukri_Project/src/test/java/com/runner/RunnerClass.java">
+        <classes>
+            <class name="com.runner.RunnerClass">
+                <methods>
+                    <include name="validLoginTest"/>
+                    <include name="viewAndUpdateTest"/>
+                    <include name="resumeUpdateTest"/>
+                    <include name="resumeHeadlineTest"/>
+                    <include name="headlineCloseButtonTest"/>
+                    <include name="keySkillsTest"/>
+                    <include name="employementUpdateTest"/>
+                    <include name="itSkillsUpdateTest"/>
+                    <include name="profileSummaryUpdateTest"/>
+                    <include name="personalDetailsUpdateTest"/>
+                    <include name="logoutTest"/>
+                    <include name="terminateBrowserTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
